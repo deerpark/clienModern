@@ -1,0 +1,78 @@
+// bower:scss
+// endbower
+
+/* webfont */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Spoqa Han Sans', 'NanumBarunGothic', 'Sans-serif';
+    color: #000;
+    background: #fff;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.theme {
+    width: 50%;
+    min-height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    position: relative;
+    h1 {
+        display: none;
+    }
+    .c {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -54px;
+        margin-top: -12px;
+    }
+    .download {
+        width: 100px;
+        height: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -54px;
+        margin-top: 32px;
+        text-align: center;
+    }
+}
+
+.dark {
+    background-color: #050505;
+    color: #b0b0ab;
+    a {
+        color: #b0b0ab;
+    }
+}
+
+.light {
+    background-color: #f9f8f4;
+    color: #4f4f4d;
+    a {
+        color: #4f4f4d;
+    }
+}
